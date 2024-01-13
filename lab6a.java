@@ -1,5 +1,5 @@
-package codes;
 import java.util.Scanner;
+
 public class lab6a extends Thread
 {
 	public static void main(String args[])
@@ -38,7 +38,7 @@ public class lab6a extends Thread
 			}
 			coins[i] = incoin;
 		}
-		System.out.print("good. now tell me what sum you want to make... ");
+		System.out.print("What sum you want to make... ");
 		int sum = x.nextInt();
 		x.close();
 		int n = coins.length;
